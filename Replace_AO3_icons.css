@@ -1,0 +1,210 @@
+/*====================================================
+REPLACE THE AO3 ICONS
+====================================================*/
+
+/* ======= NEW IMAGESET ======= */
+
+.required-tags .rating-notrated,
+.required-tags .rating-general-audience,
+.required-tags .rating-explicit, 
+.required-tags .rating-mature, 
+.required-tags .rating-teen, 
+.required-tags .category-femslash, 
+.required-tags .category-gen, 
+.required-tags .category-slash, 
+.required-tags .category-none,
+.required-tags .category-het, 
+.required-tags .category-multi,
+.required-tags .category-other, 
+.required-tags .complete-no, 
+.required-tags .complete-yes, 
+.required-tags .warning-yes, 
+.required-tags .warning-no, 
+.required-tags .warning-choosenotto, 
+.required-tags .external-work, 
+.status .private .text, 
+.status .public, 
+.status .hidden, 
+.status .rec, 
+.status .count, 
+.index .skins .icon, 
+.index .mystery .icon,
+.index .tag .icon,
+.index .tagset .icon, 
+.comment .icon .anonymous, 
+.comment .icon .visitor, 
+.abbreviated .icon .visitor, 
+.abbreviated .icon .anonymous, 
+.skins .primary .icon, 
+.admin .primary .icon, 
+.tagset .primary .icon, 
+.tag .primary .icon,
+a.rss span,
+p.kudos,
+#symbols-key dl img, /* content symbols key */
+#bookmark-symbols-key img, /* bookmark symbols key */
+img[src$="/images/skins/iconsets/default/icon_user.png"], /* this is the default user icon */
+img[src$="/images/skins/iconsets/default/icon_collection.png"], /* this is default collection icon */
+img[src$="/images/lockblue.png"] /* this is the lock for restricted works (not originally part of the imageset) */ {
+  background-image: url("https://images.squidge.org/images/2024/03/30/AO3_imageset_regular.png"); /* link to the new imageset */
+  background-size: 200px 835px; /* size of the new imageset needs to be the same as the original */
+}
+
+  /*
+  Other color schemes:
+  - Default colors + black text: https://images.squidge.org/images/2024/03/30/AO3_imageset_darkmode.png
+  - Muted/darkish colors: https://images.squidge.org/images/2024/03/30/AO3_imageset_muted_dark.png
+  - Black and white: https://images.squidge.org/images/2024/03/30/AO3_imageset_bw.png
+  - Pastel colors: https://images.squidge.org/images/2024/03/30/AO3_imageset_pastel.png
+  - Pink: https://images.squidge.org/images/2024/03/30/AO3_imageset_pink.png
+  */
+
+/*======= SYMBOLS KEYS =======*/
+
+/* sets the size of the icons for the symbols keys */
+#symbols-key dl img, /* content symbols key */
+#bookmark-symbols-key img /* bookmark symbols key */ {
+  width: 0 !important;
+  height: 0 !important;
+  padding: 25px 0 0 25px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-notrated.png"],
+img[src$="/images/skins/iconsets/default/category-none.png"],
+img[src$="/images/skins/iconsets/default/warning-no.png"] {
+  background-position: -150px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-general-audience.png"] {
+  background-position: -50px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-teen.png"] {
+  background-position: 0px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-mature.png"] {
+  background-position: -75px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/rating-explicit.png"] {
+  background-position: -25px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/category-femslash.png"] {
+  background-position: -25px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/category-het.png"] {
+  background-position: -75px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/category-gen.png"] {
+  background-position: -50px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/category-multi.png"] {
+  background-position: -100px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/category-other.png"] {
+  background-position: -125px 0px;
+}
+
+img[src$="/images/skins/iconsets/default/warning-choosenotto.png"] {
+  background-position: -125px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/warning-yes.png"] {
+  background-position: -150px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/warning-external-work.png"] {
+  background-position: -75px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/complete-no.png"] {
+  background-position: -100px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/complete-yes.png"] {
+  background-position: -175px -25px;
+}
+
+img[src$="/images/skins/iconsets/default/bookmark-rec.png"] {
+  background-position: -100px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/bookmark-public.png"] {
+  background-position: -125px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/bookmark-private.png"] {
+  background-position: -175px -50px;
+}
+
+img[src$="/images/skins/iconsets/default/bookmark-hidden.png"] {
+  background-position: -150px -50px;
+}
+
+/* ======= DEFAULT ICONS + LOCK FOR RESTRICTED WORKS ======= */
+
+/* hides the old default icons and the old lock for restricted works */
+img[src$="/images/skins/iconsets/default/icon_user.png"],
+img[src$="/images/skins/iconsets/default/icon_collection.png"],
+img[src$="/images/lockblue.png"] {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* default user icon */
+img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 100px 0 0 100px;
+  background-position: 0px -75px;
+}
+
+/* default user index icon */
+.index img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 55px 0 0 55px;
+  background-position: 0px -525px;
+}
+
+/* abbreviated default user icon */
+/* used for unread messages on splash page (idk if anywhere else) */
+.abbreviated img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 75px 0 0 75px;
+  background-position: 0px -375px;
+}
+
+/* little default user icon in header */
+#greeting img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 1.786em 0 0 1.786em;
+  background-position: 0 -19px;
+  background-size: 201% !important;
+}
+
+/* default collection icon */
+img[src$="/images/skins/iconsets/default/icon_collection.png"] {
+  padding: 100px 0 0 100px;
+  background-position: -100px -175px;
+ }
+
+/* default collection index icon */
+.index img[src$="/images/skins/iconsets/default/icon_collection.png"] {
+  padding: 55px 0 0 55px;
+  background-position: -55px -525px;
+}
+
+/* the lock for restricted works */
+img[src$="/images/lockblue.png"] {
+  padding: 15px 0 0 15px;
+  background-position: -155px -305px;
+}
+
+/*======= AO3 LOGO IN HEADER =======*/
+/* just delete the following part of the code if you don't want to replace the logo */
+
+/* this replaces the logo with a higher quality version */
+#header .logo {
+  content: url("/images/logo.png");
+}
