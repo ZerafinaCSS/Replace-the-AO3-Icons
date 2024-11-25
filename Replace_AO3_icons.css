@@ -163,17 +163,17 @@ img[src$="/images/skins/iconsets/default/icon_user.png"] {
   background-position: 0px -75px;
 }
 
-/* default user index icon */
-.index:not(.comment.index) img[src$="/images/skins/iconsets/default/icon_user.png"] {
-  padding: 55px 0 0 55px;
-  background-position: 0px -525px;
-}
-
 /* abbreviated default user icon */
-/* used for unread messages on splash page (idk if anywhere else) */
-.abbreviated img[src$="/images/skins/iconsets/default/icon_user.png"] {
+/* used for unread messages on splash page */
+.index:not(.comment) .abbreviated img[src$="/images/skins/iconsets/default/icon_user.png"] {
   padding: 75px 0 0 75px;
   background-position: 0px -375px;
+}
+
+/* default user index icon */
+.index:not(.comment) img[src$="/images/skins/iconsets/default/icon_user.png"] {
+  padding: 55px 0 0 55px;
+  background-position: 0px -525px;
 }
 
 /* little default user icon in header */
