@@ -164,7 +164,7 @@ img[src$="/images/skins/iconsets/default/icon_user.png"] {
 }
 
 /* default user index icon */
-.index img[src$="/images/skins/iconsets/default/icon_user.png"] {
+.index:not(.comment.index) img[src$="/images/skins/iconsets/default/icon_user.png"] {
   padding: 55px 0 0 55px;
   background-position: 0px -525px;
 }
