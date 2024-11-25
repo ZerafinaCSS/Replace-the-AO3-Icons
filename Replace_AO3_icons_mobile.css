@@ -7,8 +7,8 @@ REPLACE THE AO3 ICONS - Mobile Fix
   background-position: 0 -16.5px;
 }
 
-/* default icon in comments */
+/* default user icon in comments */
 .comment img[src$="/images/skins/iconsets/default/icon_user.png"] {
-  padding: 55px 0 0 55px;
-  background-position: 0px -525px;
+  padding: 55px 0 0 55px !important;
+  background-position: 0px -525px !important;
 }
