@@ -46,17 +46,17 @@ p.kudos,
 img[src$="/images/skins/iconsets/default/icon_user.png"], /* this is the default user icon */
 img[src$="/images/skins/iconsets/default/icon_collection.png"], /* this is default collection icon */
 img[src$="/images/lockblue.png"] /* this is the lock for restricted works (not originally part of the imageset) */ {
-  background-image: url("https://images.squidge.org/images/2024/03/30/AO3_imageset_regular.png"); /* link to the new imageset */
+  background-image: url("https://i.ibb.co/gZRGnRfq/Zerafina-AO3-imageset-default.png"); /* link to the new imageset */
   background-size: 200px 835px; /* size of the new imageset needs to be the same as the original */
 }
 
   /*
   Other color schemes:
-  - Default colors + black text: https://images.squidge.org/images/2024/03/30/AO3_imageset_darkmode.png
-  - Muted/darkish colors: https://images.squidge.org/images/2024/03/30/AO3_imageset_muted_dark.png
-  - Black and white: https://images.squidge.org/images/2024/03/30/AO3_imageset_bw.png
-  - Pastel colors: https://images.squidge.org/images/2024/03/30/AO3_imageset_pastel.png
-  - Pink: https://images.squidge.org/images/2024/03/30/AO3_imageset_pink.png
+  - Dark mode: https://i.ibb.co/LX8yGdnp/Zerafina-AO3-imageset-darkmode.png
+  - Muted/darkish colors: https://i.ibb.co/ycDk0pzP/Zerafina-AO3-imageset-muted.png
+  - Black and white: https://i.ibb.co/1YHZFqgS/Zerafina-AO3-imageset-bw.png
+  - Pastel colors: https://i.ibb.co/jPrL5T1c/Zerafina-AO3-imageset-pastel.png
+  - Pink: https://i.ibb.co/ynDFSRxx/Zerafina-AO3-imageset-pink.png
   */
 
 /*======= SYMBOLS KEYS =======*/
