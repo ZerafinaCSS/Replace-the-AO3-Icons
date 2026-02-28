@@ -1,43 +1,53 @@
-/*====================================================
-REPLACE THE AO3 ICONS
-====================================================*/
+/*============================================================
+
+                        AO3 Site Skin:
+                    Replace the AO3 Icons
+
+                        by ZerafinaCSS
+
+=============================================================*/
+
+.skin-credit {
+  content: "Replace the AO3 Icons by ZerafinaCSS
+  https://archiveofourown.org/works/54831748";
+}
 
 /* ======= NEW IMAGESET ======= */
 
 .required-tags .rating-notrated,
 .required-tags .rating-general-audience,
-.required-tags .rating-explicit, 
-.required-tags .rating-mature, 
-.required-tags .rating-teen, 
-.required-tags .category-femslash, 
-.required-tags .category-gen, 
-.required-tags .category-slash, 
+.required-tags .rating-explicit,
+.required-tags .rating-mature,
+.required-tags .rating-teen,
+.required-tags .category-femslash,
+.required-tags .category-gen,
+.required-tags .category-slash,
 .required-tags .category-none,
-.required-tags .category-het, 
+.required-tags .category-het,
 .required-tags .category-multi,
-.required-tags .category-other, 
-.required-tags .complete-no, 
-.required-tags .complete-yes, 
-.required-tags .warning-yes, 
-.required-tags .warning-no, 
-.required-tags .warning-choosenotto, 
-.required-tags .external-work, 
-.status .private .text, 
-.status .public, 
-.status .hidden, 
-.status .rec, 
-.status .count, 
-.index .skins .icon, 
+.required-tags .category-other,
+.required-tags .complete-no,
+.required-tags .complete-yes,
+.required-tags .warning-yes,
+.required-tags .warning-no,
+.required-tags .warning-choosenotto,
+.required-tags .external-work,
+.status .private .text,
+.status .public,
+.status .hidden,
+.status .rec,
+.status .count,
+.index .skins .icon,
 .index .mystery .icon,
 .index .tag .icon,
-.index .tagset .icon, 
-.comment .icon .anonymous, 
-.comment .icon .visitor, 
-.abbreviated .icon .visitor, 
-.abbreviated .icon .anonymous, 
-.skins .primary .icon, 
-.admin .primary .icon, 
-.tagset .primary .icon, 
+.index .tagset .icon,
+.comment .icon .anonymous,
+.comment .icon .visitor,
+.abbreviated .icon .visitor,
+.abbreviated .icon .anonymous,
+.skins .primary .icon,
+.admin .primary .icon,
+.tagset .primary .icon,
 .tag .primary .icon,
 a.rss span,
 p.kudos,
@@ -51,7 +61,7 @@ img[src$="/images/lockblue.png"] /* this is the lock for restricted works (not o
 }
 
   /*
-  Other color schemes:
+  Other color schemes (replace background-image url above):
   - Dark mode: https://zerafinacss.github.io/ao3/imageset/darkmode.png
   - Muted/darkish colors: https://zerafinacss.github.io/ao3/imageset/muted.png
   - Black and white: https://zerafinacss.github.io/ao3/imageset/bw.png
