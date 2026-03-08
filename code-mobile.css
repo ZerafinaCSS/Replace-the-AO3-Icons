@@ -2,6 +2,19 @@
 REPLACE THE AO3 ICONS - Mobile Fix
 ====================================================*/
 
+.site-skin-metadata {
+  content: "==================================================
+
+  - Skin:         Replace the AO3 Icons - mobile fix
+  - Author:       ZerafinaCSS [https://www.tumblr.com/zerafinacss]
+  - Instructions: https://ao3.org/works/54831748
+  - Repository:   https://github.com/ZerafinaCSS/Replace-the-AO3-Icons
+  - License:      GPL-3.0
+  - Updated:      2026-Mar-08 19:16 UTC (no code changes)
+
+  ==========================================================";
+}
+
 /* little default profile icon in header */
 #greeting img[src$="/images/skins/iconsets/default/icon_user.png"] {
   background-position: 0 -16.5px;

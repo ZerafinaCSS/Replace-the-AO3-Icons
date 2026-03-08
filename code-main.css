@@ -3,13 +3,19 @@
                         AO3 Site Skin:
                     Replace the AO3 Icons
 
-                        by ZerafinaCSS
-
 =============================================================*/
 
-.skin-credit {
-  content: "Replace the AO3 Icons by ZerafinaCSS
-  https://archiveofourown.org/works/54831748";
+.site-skin-metadata {
+  content: "==================================================
+
+  - Skin:         Replace the AO3 Icons
+  - Author:       ZerafinaCSS [https://www.tumblr.com/zerafinacss]
+  - Instructions: https://ao3.org/works/54831748
+  - Repository:   https://github.com/ZerafinaCSS/Replace-the-AO3-Icons
+  - License:      GPL-3.0
+  - Updated:      2026-Mar-08 19:16 UTC (no code changes)
+
+  ==========================================================";
 }
 
 /* ======= NEW IMAGESET ======= */
